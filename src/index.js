@@ -14,7 +14,7 @@ module.exports = function towelSort (matrix) {
   return matrix.map(row => row
                             .join()
                             .split(','))
-                                        .join()
-                                        .split(',')
-                                                  .map(str => parseInt(str));
+                                      .join()
+                                      .split(',')
+                                                .map(str => parseInt(str));
 };
