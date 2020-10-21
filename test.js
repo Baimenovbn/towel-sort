@@ -1,5 +1,4 @@
 const assert = require('assert');
-
 const towelSort = require('./src/index.js');
 
 describe('.towelSort, should perfrom \'towelSort\'', () => {
